@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <h1>Hello World</h1>
+    <h1 id="title">Hello World</h1>
     <br>
     <span> Ce TP est vraiment sympatoche</span>
     <style>
         body {
             background-color: black;
             color : white;
+            text-align: center;
         }
+        #title {
+            display : flex;
+            justify-content: center;
+            text-align: center;
+            width: 10em;
+            margin-left: 38%;
+        }
+        #title:hover {
+            color : skyblue;
+            box-shadow: 10px 5px 5px skyblue;
+        }
+        span {
+            font: message-box;
+        }
+
 
     </style>
 </head>
